@@ -1,0 +1,5 @@
+Improvements:
+
+1. Should throw proper error codes for invalid inputs
+2. Should accept inputs as payload 
+3. Should accept additional flag to convert current millis to local time (currently it converts millis to UTC)
