@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="4255" started-at="2023-03-18T08:28:56Z" finished-at="2023-03-18T08:29:01Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="4255" started-at="2023-03-18T08:28:56Z" finished-at="2023-03-18T08:29:01Z">
+      <class name="TimeStampfromDateTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:TimeStampfromDateTest@174d20a]" name="init" is-config="true" duration-ms="710" started-at="2023-03-18T08:28:56Z" finished-at="2023-03-18T08:28:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getFalseWithWrongMillis()[pri:0, instance:TimeStampfromDateTest@174d20a]" name="getFalseWithWrongMillis" duration-ms="2097" started-at="2023-03-18T08:28:57Z" finished-at="2023-03-18T08:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFalseWithWrongMillis -->
+        <test-method status="PASS" signature="getFalseWithWrongTimestamp()[pri:0, instance:TimeStampfromDateTest@174d20a]" name="getFalseWithWrongTimestamp" duration-ms="625" started-at="2023-03-18T08:28:59Z" finished-at="2023-03-18T08:29:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFalseWithWrongTimestamp -->
+        <test-method status="PASS" signature="getMillisFromTimestamp()[pri:0, instance:TimeStampfromDateTest@174d20a]" name="getMillisFromTimestamp" duration-ms="306" started-at="2023-03-18T08:29:00Z" finished-at="2023-03-18T08:29:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMillisFromTimestamp -->
+        <test-method status="PASS" signature="getTimestampFromDate()[pri:0, instance:TimeStampfromDateTest@174d20a]" name="getTimestampFromDate" duration-ms="269" started-at="2023-03-18T08:29:00Z" finished-at="2023-03-18T08:29:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTimestampFromDate -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:TimeStampfromDateTest@174d20a]" name="endTest" is-config="true" duration-ms="226" started-at="2023-03-18T08:29:00Z" finished-at="2023-03-18T08:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- TimeStampfromDateTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
